@@ -12,7 +12,7 @@ function Perfil(props){
                 <div className="content-info">
 
                     <div className="imagen-perfil">
-                        <img className='imagen-perfil' src={require(`../imagenes/brais.png`)} alt='Foto de Brais' />
+                        <img className='imagen-perfil' src={require(`../imagenes/${props.imagen}.png`)}/>
                     </div>
 
                     <div className="config-text">

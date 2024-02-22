@@ -6,9 +6,9 @@ import Contador from './componentes/Contador';
 function App() {
   const [contador, setContador]= useState(0);
 
-  const users = [ {"nombre":"Johan",    "pais":"Bogotá", "imagen":"", "cargo":"Desarrollador Jr", "empresa":"", "description":"", "linkedin": 'https://www.linkedin.com/in/braismoure/', "github": "https://github.com/", "youtube": "https://www.youtube.com/"},
-                  {"nombre":"Juan",     "pais":"Bogotá", "imagen":"", "cargo":"Desarrollador Jr", "empresa":"", "description":"", "linkedin": "https://www.linkedin.com/in/braismoure/", "github": "https://github.com/", "youtube": "https://www.youtube.com/"},
-                  {"nombre":"Fernando", "pais":"Bogotá", "imagen":"", "cargo":"Desarrollador Jr", "empresa":"", "description":"", "linkedin": "https://www.linkedin.com/in/braismoure/", "github": "https://github.com/", "youtube": "https://www.youtube.com/"}
+  const users = [ {"nombre":"Brais",    "pais":"Bogotá", "imagen":"brais", "cargo":"Desarrollador Jr", "empresa":"", "description":"", "linkedin": 'https://www.linkedin.com/in/braismoure/', "github": "https://github.com/", "youtube": "https://www.youtube.com/"},
+                  {"nombre":"Facundo",  "pais":"Bogotá", "imagen":"facundo", "cargo":"Desarrollador Jr", "empresa":"", "description":"", "linkedin": "https://www.linkedin.com/in/braismoure/", "github": "https://github.com/", "youtube": "https://www.youtube.com/"},
+                  {"nombre":"Fernando", "pais":"Bogotá", "imagen":"facundo", "cargo":"Desarrollador Jr", "empresa":"", "description":"", "linkedin": "https://www.linkedin.com/in/braismoure/", "github": "https://github.com/", "youtube": "https://www.youtube.com/"}
                 ]
   return (
     <div className="App">
